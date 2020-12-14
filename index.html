@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="head1"></h1>
+    <p id="head1Par1"></p>
+    <!-- <script src="home.js"></script> -->
+    <script>
+        //an array with 2 objects inside of it
+        let students = [
+            {
+                "name": "Andrew",
+                "age": 25,
+                "height": 160
+            },
+            {
+                "name": "Bwogi",
+                "age": 29,
+                "height": 180
+            }
+        ]
+        console.log(students);
+
+        //to turn it into a string
+        //JSON objects look like this.
+        let studentString = `[
+            {
+                "name": "Andrew",
+                "age": 25,
+                "height": 160
+            },
+            {
+                "name": "Bwogi",
+                "age": 29,
+                "height": 180
+            }
+        ]`
+        console.log(studentString);
+
+        //to turn it back into a javascript array
+        //use the JSON.parse() function
+        let studentStringJson = `[
+            {
+                "name": "Andrew",
+                "age": 25,
+                "height": 160
+            },
+            {
+                "name": "Bwogi",
+                "age": 29,
+                "height": 180
+            }
+        ]`
+        console.log(JSON.parse(studentStringJson));
+        //extracting the second student's record
+        console.log(JSON.parse(studentStringJson)[1]);
+        //extracting the second student's name
+        console.log(JSON.parse(studentStringJson)[1].name);
+        //extracting the second student's age
+        console.log(JSON.parse(studentStringJson)[1].age);
+        
+
+    </script>
+</body>
+</html>

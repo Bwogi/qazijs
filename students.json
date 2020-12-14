@@ -1,0 +1,15 @@
+//javascript object notation
+//json is an array with objects inside of it
+
+[
+    {
+        "name": "Andrew",
+        "age": 25,
+        "height": 160
+    },
+    {
+        "name": "Bwogi",
+        "age": 29,
+        "height": 180
+    }
+]
