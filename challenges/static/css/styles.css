@@ -4,7 +4,7 @@
     text-align: center;
 }
 
-.container-1{
+.container-1, container-2 {
     border: 1px solid black;
 }
 
