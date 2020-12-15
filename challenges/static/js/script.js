@@ -15,3 +15,7 @@ function ageInDays(){
 function reset(){
     document.getElementById('ageInDays').remove();
 }
+
+function reload(){
+    location.reload();
+}
